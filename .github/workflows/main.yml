@@ -32,5 +32,4 @@ jobs:
 
       - name: Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name":"aliichwan100-collab","description":"aliichwan100-collab
-      AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name":"aliichwan100-collab","description":"aliichwan100-collab AI Agent"}'
