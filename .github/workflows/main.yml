@@ -10,7 +10,7 @@ Verify Human Identity  on:
          required: true 
          default: 'aliichwan100-collab AI Agent' 
   
- jobs: 
+jobs: 
    verify: 
      runs-on: ubuntu-latest 
   
