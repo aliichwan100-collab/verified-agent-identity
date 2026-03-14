@@ -1,9 +1,10 @@
-
-Verify Human Identity  on: 
+name: Verify Human Identity 
+  
+ on: 
    workflow_dispatch: 
      inputs: 
        agent_name: 
-         description: 'aliichwan100collab' 
+         description: 'aliichwan100-collab' 
          required: true 
          default: 'aliichwan100-collab' 
        agent_description: 
@@ -11,7 +12,7 @@ Verify Human Identity  on:
          required: true 
          default: 'aliichwan100-collab AI Agent' 
   
-jobs: 
+ jobs: 
    verify: 
      runs-on: ubuntu-latest 
   
